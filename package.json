@@ -15,6 +15,7 @@
   "author": "Cody Rademacher",
   "license": "ISC",
   "dependencies": {
+    "babel": "^6.23.0",
     "express": "^4.17.1",
     "if-env": "^1.0.4"
   },
@@ -22,6 +23,8 @@
     "concurrently": "^5.2.0",
     "css-loader": "^6.8.1",
     "nodemon": "^2.0.4",
-    "style-loader": "^3.3.3"
+    "style-loader": "^3.3.3",
+    "webpack-pwa-manifest": "^4.3.0",
+    "workbox-webpack-plugin": "^7.0.0"
   }
 }
