@@ -29,7 +29,6 @@ module.exports = () => {
       }),
       new InjectManifest({
         swSrc: "./src/src-sw.js",
-        swDest: "service-worker.js",
       }),
       new WebpackPwaManifest({
         name: "My App",
