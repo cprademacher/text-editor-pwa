@@ -10,6 +10,7 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 module.exports = () => {
   return {
     mode: "development",
+    devtool: "eval-source-map",
     entry: {
       main: "./src/js/index.js",
       install: "./src/js/install.js",
