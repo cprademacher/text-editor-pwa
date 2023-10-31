@@ -2,16 +2,13 @@
   "name": "jate",
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "webpack --mode development",
+    "build": "webpack --mode production",
     "start": "webpack --watch"
   },
   "author": "2U",
   "license": "UNLICENSED",
   "devDependencies": {
-    "css-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.3.2",
-    "http-server": "^0.11.1",
-    "style-loader": "^3.2.1"
+    "http-server": "^0.11.1"
   },
   "dependencies": {
     "code-mirror-themes": "^1.0.0",
@@ -26,6 +23,9 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "@babel/preset-env": "^7.15.0",
     "@babel/runtime": "^7.15.3",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "style-loader": "^3.3.3",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3"
   }
 }
